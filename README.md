@@ -1,32 +1,32 @@
-ubuntu 14.04安装git
+ubuntu 14.04安装git  
 apt-get install git
-
-尝试连接github
+</br>
+尝试连接github  
 ssh -T git@github.com
-
+</br>
 ssh-keygen -t rsa -C “email”
 公钥文件复制进SSH key中
-
+</br>
 把目录变成GIT管理仓库
 git init
-
+</br>
 git add readme.txt
 把readme.txt放到Git仓库
-
+</br>
 git commit -m "wrote a readme file"
 把文件提交到仓库 -m 后面接本次提交的说明
-
+</br>
 commit可以一次提交很多文件 可多次add不同的文件
-
+</br>
 git status
 查看仓库当前状态
-
+</br>
 git diff readme.txt
 git diff 接文件名 查看文件具体修改了哪些内容
-
+</br>
 git log
 查看文件历史修改记录
-
+</br>
 git log --pretty=oneline
 加上参数则显示历史记录的修改版本号和修改说明
 
