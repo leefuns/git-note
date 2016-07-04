@@ -1,7 +1,9 @@
-ubuntu 14.04安装git  
+ubuntu 14.04安装git
 apt-get install git  
+
 尝试连接github  
 ssh -T git@github.com  
+
 ssh-keygen -t rsa -C “email”
 公钥文件复制进SSH key中
 <br/>
